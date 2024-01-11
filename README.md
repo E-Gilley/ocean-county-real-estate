@@ -15,7 +15,7 @@ Two real estate investors focus mainly on Ocean County New Jersey. The investors
 
 They wanted an easy way to check on the Ocean County real estate market at a macro level.
 
-All of the information below walks through how the data was extracted from RedFin and imported to Tableau using a Google Colab notebook and Python.
+All of the information below walks through how the data was extracted from RedFin and imported to Tableau using a [Google Colab notebook](https://colab.research.google.com/drive/1WIjgo4YAxOl8I2xMRPjRzGbe9V9lz_tU?usp=sharing) and Python.
 
 ## <font color="white">Imports</font>
 
@@ -75,4 +75,10 @@ else:
     print("Failed to retrieve data")  # Display a message if data retrieval fails
 ```
 
+## <font color="white">Transformations</font>
 
+The code below gives provides a super quick and dirty exploratory overview of the data.
+
+```Python
+df_filtered.describe()
+```
